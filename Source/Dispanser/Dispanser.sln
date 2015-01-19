@@ -1,0 +1,122 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dispanser", "Dispanser\Dispanser.csproj", "{B944D70C-7C17-4B0A-A7F9-C9DFDC3D228F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{27FA5C63-D515-4696-9678-DC1CC58CECB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Release", "Release", "{BB76F203-5951-45A8-8147-03ADB676F0CC}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Release\Dispanser.exe = ..\..\Release\Dispanser.exe
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{3C8BE043-6B45-4C53-9D83-7BECC244E341}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Release\images\add.png = ..\..\Release\images\add.png
+		..\..\Release\images\attention.png = ..\..\Release\images\attention.png
+		..\..\Release\images\back.png = ..\..\Release\images\back.png
+		..\..\Release\images\bg.png = ..\..\Release\images\bg.png
+		..\..\Release\images\cancel.png = ..\..\Release\images\cancel.png
+		..\..\Release\images\delete.png = ..\..\Release\images\delete.png
+		..\..\Release\images\Edit.png = ..\..\Release\images\Edit.png
+		..\..\Release\images\Edit_No.png = ..\..\Release\images\Edit_No.png
+		..\..\Release\images\Edit_status.png = ..\..\Release\images\Edit_status.png
+		..\..\Release\images\Edit_Yes.png = ..\..\Release\images\Edit_Yes.png
+		..\..\Release\images\email.png = ..\..\Release\images\email.png
+		..\..\Release\images\emblema.png = ..\..\Release\images\emblema.png
+		..\..\Release\images\exit.png = ..\..\Release\images\exit.png
+		..\..\Release\images\history.png = ..\..\Release\images\history.png
+		..\..\Release\images\info.png = ..\..\Release\images\info.png
+		..\..\Release\images\Lock.png = ..\..\Release\images\Lock.png
+		..\..\Release\images\NewFile.png = ..\..\Release\images\NewFile.png
+		..\..\Release\images\Printer.png = ..\..\Release\images\Printer.png
+		..\..\Release\images\save.png = ..\..\Release\images\save.png
+		..\..\Release\images\search.png = ..\..\Release\images\search.png
+		..\..\Release\images\Settings.png = ..\..\Release\images\Settings.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "database", "database", "{DEDB2F64-22C0-4A21-96A3-4620159FA49C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Release\database\database.dat = ..\..\Release\database\database.dat
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Release project", "Release project", "{8F877F5D-AE8E-4B4B-A68D-434A7C3AB3AD}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Release\Dispanser.exe = ..\..\Release\Dispanser.exe
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "database", "database", "{D1842A69-C044-4FB1-8EC3-2F8EE259E539}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Release\database\database.dat = ..\..\Release\database\database.dat
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{B3D5897D-8C7E-44B9-B992-1335D36F8EF8}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Release\images\add.png = ..\..\Release\images\add.png
+		..\..\Release\images\attention.png = ..\..\Release\images\attention.png
+		..\..\Release\images\back.png = ..\..\Release\images\back.png
+		..\..\Release\images\bg.png = ..\..\Release\images\bg.png
+		..\..\Release\images\cancel.png = ..\..\Release\images\cancel.png
+		..\..\Release\images\delete.png = ..\..\Release\images\delete.png
+		..\..\Release\images\Edit.png = ..\..\Release\images\Edit.png
+		..\..\Release\images\Edit_No.png = ..\..\Release\images\Edit_No.png
+		..\..\Release\images\Edit_status.png = ..\..\Release\images\Edit_status.png
+		..\..\Release\images\Edit_Yes.png = ..\..\Release\images\Edit_Yes.png
+		..\..\Release\images\email.png = ..\..\Release\images\email.png
+		..\..\Release\images\emblema.png = ..\..\Release\images\emblema.png
+		..\..\Release\images\exit.png = ..\..\Release\images\exit.png
+		..\..\Release\images\history.png = ..\..\Release\images\history.png
+		..\..\Release\images\info.png = ..\..\Release\images\info.png
+		..\..\Release\images\Lock.png = ..\..\Release\images\Lock.png
+		..\..\Release\images\NewFile.png = ..\..\Release\images\NewFile.png
+		..\..\Release\images\Printer.png = ..\..\Release\images\Printer.png
+		..\..\Release\images\save.png = ..\..\Release\images\save.png
+		..\..\Release\images\search.png = ..\..\Release\images\search.png
+		..\..\Release\images\Settings.png = ..\..\Release\images\Settings.png
+	EndProjectSection
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "DispanserSetup", "..\DispanserSetup\DispanserSetup\DispanserSetup.isproj", "{6C6555BE-94CB-445A-BF2F-4BEC2B8A3D02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+		Description = Формування сертифікату про проходження профілактичного наркологічного огляду
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B944D70C-7C17-4B0A-A7F9-C9DFDC3D228F}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{B944D70C-7C17-4B0A-A7F9-C9DFDC3D228F}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{B944D70C-7C17-4B0A-A7F9-C9DFDC3D228F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B944D70C-7C17-4B0A-A7F9-C9DFDC3D228F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B944D70C-7C17-4B0A-A7F9-C9DFDC3D228F}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{B944D70C-7C17-4B0A-A7F9-C9DFDC3D228F}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{B944D70C-7C17-4B0A-A7F9-C9DFDC3D228F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B944D70C-7C17-4B0A-A7F9-C9DFDC3D228F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B944D70C-7C17-4B0A-A7F9-C9DFDC3D228F}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{B944D70C-7C17-4B0A-A7F9-C9DFDC3D228F}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{6C6555BE-94CB-445A-BF2F-4BEC2B8A3D02}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{6C6555BE-94CB-445A-BF2F-4BEC2B8A3D02}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{6C6555BE-94CB-445A-BF2F-4BEC2B8A3D02}.Debug|Any CPU.ActiveCfg = DVD-5
+		{6C6555BE-94CB-445A-BF2F-4BEC2B8A3D02}.Debug|Any CPU.Build.0 = DVD-5
+		{6C6555BE-94CB-445A-BF2F-4BEC2B8A3D02}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{6C6555BE-94CB-445A-BF2F-4BEC2B8A3D02}.DVD-5|Any CPU.Build.0 = DVD-5
+		{6C6555BE-94CB-445A-BF2F-4BEC2B8A3D02}.Release|Any CPU.ActiveCfg = SingleImage
+		{6C6555BE-94CB-445A-BF2F-4BEC2B8A3D02}.Release|Any CPU.Build.0 = SingleImage
+		{6C6555BE-94CB-445A-BF2F-4BEC2B8A3D02}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{6C6555BE-94CB-445A-BF2F-4BEC2B8A3D02}.SingleImage|Any CPU.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B944D70C-7C17-4B0A-A7F9-C9DFDC3D228F} = {27FA5C63-D515-4696-9678-DC1CC58CECB0}
+		{6C6555BE-94CB-445A-BF2F-4BEC2B8A3D02} = {27FA5C63-D515-4696-9678-DC1CC58CECB0}
+		{3C8BE043-6B45-4C53-9D83-7BECC244E341} = {BB76F203-5951-45A8-8147-03ADB676F0CC}
+		{DEDB2F64-22C0-4A21-96A3-4620159FA49C} = {BB76F203-5951-45A8-8147-03ADB676F0CC}
+		{D1842A69-C044-4FB1-8EC3-2F8EE259E539} = {8F877F5D-AE8E-4B4B-A68D-434A7C3AB3AD}
+		{B3D5897D-8C7E-44B9-B992-1335D36F8EF8} = {8F877F5D-AE8E-4B4B-A68D-434A7C3AB3AD}
+	EndGlobalSection
+EndGlobal
